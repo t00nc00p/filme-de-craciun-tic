@@ -13,7 +13,7 @@ function LogIn() {
 
   async function water (email, password) {
     try {
-      const response = await fetch("https://proiect-tic-backend.onrender.com/login", {
+      const response = await fetch("https://proiect-tic-backend.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
